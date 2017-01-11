@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="nTs-1y-UCb">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--About Tab Controller-->
+        <scene sceneID="bAF-fV-XGT">
+            <objects>
+                <tabBarController storyboardIdentifier="AboutStoryboard" definesPresentationContext="YES" id="nTs-1y-UCb" customClass="AboutTabController" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="q8f-UU-Ie0">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="xIt-VU-X7h" kind="relationship" relationship="viewControllers" id="oAG-Jb-zrv"/>
+                        <segue destination="w8s-bc-adl" kind="relationship" relationship="viewControllers" id="bfH-3n-xC5"/>
+                        <segue destination="hd7-MQ-de9" kind="relationship" relationship="viewControllers" id="zoz-KM-hmM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XI6-AC-L6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1792" y="-140"/>
+        </scene>
+        <!--Navigation Controller - About Manulife-->
+        <scene sceneID="IyU-SE-UNV">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="xIt-VU-X7h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About Manulife" image="info.png" id="2FA-Fa-kli"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xen-Ip-Hvv">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="FgW-Th-YVL" kind="relationship" relationship="rootViewController" id="R5h-ge-i4X"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Gc-Jj-d92" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-382" y="-1032"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="vng-5G-NMf">
+            <objects>
+                <viewController id="FgW-Th-YVL" customClass="AboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ev7-Ci-RHa">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="PriorityChoice_bg_2013.png" id="yY9-Y4-gK0">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6pR-G5-x74" userLabel="lbl_Overlay1">
+                                <rect key="frame" x="20" y="82" width="984" height="293"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.70000000000000007" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jqE-gc-Ine" userLabel="lbl_Overlay2">
+                                <rect key="frame" x="20" y="398" width="984" height="303"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="Ooa-5R-jte">
+                                <rect key="frame" x="38" y="412" width="945" height="279"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2Ym-ro-ED4">
+                                <rect key="frame" x="29" y="91" width="964" height="275"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rkL-xE-4e9"/>
+                    <connections>
+                        <outlet property="imageBanner" destination="2Ym-ro-ED4" id="AIS-mJ-uLK"/>
+                        <outlet property="lbl_Overlay1" destination="6pR-G5-x74" id="YJ8-TM-DgS"/>
+                        <outlet property="lbl_Overlay2" destination="jqE-gc-Ine" id="B7o-4t-cg2"/>
+                        <outlet property="txtArea_BoilerPlate" destination="Ooa-5R-jte" id="zNx-RM-UJ2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cCi-wj-T6P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="810" y="-1032"/>
+        </scene>
+        <!--Navigation Controller - Why Manulife-->
+        <scene sceneID="nqI-3F-3XJ">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="w8s-bc-adl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Why Manulife" image="talk-32.png" id="A5W-r5-usx"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WA3-hE-oAI">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EBc-U2-hKf" kind="relationship" relationship="rootViewController" id="ymS-tK-4a8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vzN-8F-H5W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-358" y="-80"/>
+        </scene>
+        <!--Navigation Controller - In The News-->
+        <scene sceneID="QCi-37-zbK">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="hd7-MQ-de9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="In The News" image="news-32.png" id="dxW-cQ-4Py"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H6I-Tj-xfG">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="fGy-hj-JgQ" kind="relationship" relationship="rootViewController" id="tJN-lC-dcS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nB3-y6-mch" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-358" y="805"/>
+        </scene>
+        <!--Why Manulife View Controller-->
+        <scene sceneID="JoA-Cz-WIw">
+            <objects>
+                <viewController id="EBc-U2-hKf" customClass="WhyManulifeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dTg-GN-YY3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="FRR-Tj-Wau">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="uOk-KV-ik0">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <connections>
+                                    <outlet property="delegate" destination="EBc-U2-hKf" id="WF8-Bm-wR1"/>
+                                </connections>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2f5-Ic-8wC"/>
+                    <connections>
+                        <outlet property="image" destination="uOk-KV-ik0" id="pIU-g5-Sda"/>
+                        <outlet property="scrollView" destination="FRR-Tj-Wau" id="vyB-0r-NeD"/>
+                        <outlet property="view" destination="dTg-GN-YY3" id="nNf-Vm-I8f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gsW-wS-NdR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834" y="-80"/>
+        </scene>
+        <!--In The News View Controller-->
+        <scene sceneID="i3K-u0-U0K">
+            <objects>
+                <viewController id="fGy-hj-JgQ" customClass="InTheNewsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lHL-Iu-oTg">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="2Kr-mC-qlS">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="je0-Eo-3oN">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DCu-xB-a91"/>
+                    <connections>
+                        <outlet property="image" destination="je0-Eo-3oN" id="WbH-IH-zYw"/>
+                        <outlet property="scrollView" destination="2Kr-mC-qlS" id="pMI-uN-P5H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LiX-cu-Mzm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834" y="813"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PriorityChoice_bg_2013.png" width="1024" height="768"/>
+        <image name="info.png" width="30" height="30"/>
+        <image name="news-32.png" width="32" height="32"/>
+        <image name="talk-32.png" width="32" height="32"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="Dlc-zf-fBU">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Funds View Controller-->
+        <scene sceneID="Bbr-bW-dyn">
+            <objects>
+                <viewController id="LNI-wY-0oA" customClass="FundsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="he3-US-WTT">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="PriorityChoice_bg_2013.png" id="JYf-IK-Fyx">
+                                <rect key="frame" x="0.0" y="15" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IndicativeResults.jpg" id="faK-OW-hDh">
+                                <rect key="frame" x="-14" y="73" width="1052" height="560"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1v4-wG-Ryr">
+                                <rect key="frame" x="86" y="641" width="852" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">* Not to be viewed as recommendations; client holds the final decision based on his own assessment of his personal circumstances and his own examination of the merits and risks involved</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oMH-Kt-In7"/>
+                    <connections>
+                        <outlet property="navItem" destination="oMH-Kt-In7" id="HAH-ch-Mfc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ct-kr-Cpq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3893" y="6396"/>
+        </scene>
+        <!--Funds View Controller-->
+        <scene sceneID="bV8-DZ-rLo">
+            <objects>
+                <viewController id="4ss-cS-Tkc" customClass="FundsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gL2-3h-xsM">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="PriorityChoice_bg_2013.png" id="Xap-hL-0FV">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PesoStableFund.png" id="0eh-qM-g1W">
+                                <rect key="frame" x="91" y="92" width="842" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Peso Stable Fund" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L1U-Iw-nCj">
+                                <rect key="frame" x="20" y="21" width="343" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W1e-zB-RMK" userLabel="lbl_Overlay">
+                                <rect key="frame" x="91" y="472" width="842" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kG6-td-oNr">
+                                <rect key="frame" x="107" y="485" width="810" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Fund seeks to achieve a stable and long-term growth by investing in government securities, high-quality corporate debt securities, stocks listed on the Philippine Stock Exchange and/or pooled fund/s that invest in these securities and other liquid instruments.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Im-r5-ohD"/>
+                    <connections>
+                        <outlet property="navItem" destination="1Im-r5-ohD" id="cFL-Wb-gul"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t10-3J-vbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3911" y="-112"/>
+        </scene>
+        <!--Funds View Controller-->
+        <scene sceneID="Eik-62-xER">
+            <objects>
+                <viewController id="XcR-X7-yV2" customClass="FundsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="15h-bd-Rrd">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="PriorityChoice_bg_2013.png" id="Ggf-BK-RlD">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PesobondFund.png" id="6C6-lm-TaR">
+                                <rect key="frame" x="91" y="92" width="842" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Peso Bond Fund" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fGH-JY-6f9">
+                                <rect key="frame" x="20" y="21" width="343" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="58L-Ji-nJG" userLabel="lbl_Overlay">
+                                <rect key="frame" x="91" y="472" width="842" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Cyy-kg-Wod">
+                                <rect key="frame" x="107" y="485" width="810" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Fund seeks to achieve a stable and long-term growth by investing in government securities and/or high-quality corporate debt securities and/or pooled fund/s that invest in these securities and other liquid fixed income instruments.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AsG-C3-VTg"/>
+                    <connections>
+                        <outlet property="navItem" destination="AsG-C3-VTg" id="nUg-kw-PGg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4WQ-so-bkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3903" y="808"/>
+        </scene>
+        <!--Funds View Controller-->
+        <scene sceneID="K0W-Q4-Kt9">
+            <objects>
+                <viewController id="1Tj-Ag-hKb" customClass="FundsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NfD-Pi-v78">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="PriorityChoice_bg_2013.png" id="y4u-rl-ZId">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PesoEquityFund.png" id="mTZ-tE-5eF">
+                                <rect key="frame" x="91" y="92" width="842" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Peso Equity Fund" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6mB-D5-orT">
+                                <rect key="frame" x="20" y="21" width="343" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6AT-Ta-k1u" userLabel="lbl_Overlay">
+                                <rect key="frame" x="91" y="472" width="842" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ONI-fM-xRo">
+                                <rect key="frame" x="107" y="485" width="810" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Fund seeks to achieve long-term capital appreciation by investing in stocks listed on the Philippine Stock Exchange and in government securities and/or pooled fund/s that invest in these securities and other liquid instruments.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="T4n-Ow-4XM"/>
+                    <connections>
+                        <outlet property="navItem" destination="T4n-Ow-4XM" id="KZ1-Z5-Prb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="62j-Rr-cMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3871" y="1768"/>
+        </scene>
+        <!--Funds View Controller-->
+        <scene sceneID="sgG-5Y-TPS">
+            <objects>
+                <viewController id="1tq-3H-g1Z" customClass="FundsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x2S-Zb-zj5">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="PriorityChoice_bg_2013.png" id="U4o-OH-2g0">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Apbf.png" id="5Dy-0p-Zlj">
+                                <rect key="frame" x="91" y="92" width="842" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="US Dollar Bond Fund" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tCU-0d-fhe">
+                                <rect key="frame" x="20" y="21" width="428" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0fi-qY-LzP" userLabel="lbl_Overlay">
+                                <rect key="frame" x="91" y="472" width="842" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Sun-RR-cO3">
+                                <rect key="frame" x="107" y="485" width="810" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Fund aims to maximize returns from a combination of capital appreciation and income generation by investing in a diversified portfolio of fixed income securities issued by governments, agencies, supra-nationals and corporate issuers in the Asia-Pacific region. For efficient portfolio management, the fund may acquire financial futures contracts and forward currency contracts for hedging purpose and may invest in other investments to the extent permitted by the relevant laws.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JPN-I6-Rp7"/>
+                    <connections>
+                        <outlet property="navItem" destination="JPN-I6-Rp7" id="Tbs-BV-fWI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vo9-vF-3R9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3877" y="2680"/>
+        </scene>
+        <!--Funds View Controller-->
+        <scene sceneID="Caj-tp-76g">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iPe-kn-5pG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="1WW-vg-QQ0" customClass="FundsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e1O-YV-4Yr">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="PriorityChoice_bg_2013.png" id="pYx-FP-VAQ">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="GrowthFund.png" id="0oz-kF-4oJ">
+                                <rect key="frame" x="91" y="92" width="842" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="US Dollar Asia Pacific" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Dcx-Wk-If8">
+                                <rect key="frame" x="20" y="21" width="449" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kd8-qS-IHv" userLabel="lbl_Overlay">
+                                <rect key="frame" x="91" y="472" width="842" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nbt-el-2v4">
+                                <rect key="frame" x="107" y="485" width="810" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Fund seeks to generate long-term capital growth through investments and equity and equity-related securities of companies incorporated in countries which are members of ASEAN as well as companies incorporated outside ASEAN but with material exposure to ASEAN Markets. For efficient profolio management, the fund may acquire financial futures contacts and forward currency contacts for hedging purposes and may invest in other investments to the extent permitted by the relevant laws.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="asZ-CO-bq5"/>
+                    <connections>
+                        <outlet property="navItem" destination="asZ-CO-bq5" id="b26-5d-pbM"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3885" y="4568"/>
+        </scene>
+        <!--Manu Funds Tab Controller-->
+        <scene sceneID="ud5-lk-ZOS">
+            <objects>
+                <tabBarController storyboardIdentifier="FundsStoryboard" automaticallyAdjustsScrollViewInsets="NO" id="Dlc-zf-fBU" customClass="ManuFundsTabController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="epD-nq-E8U">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ubs-fj-GHx" kind="relationship" relationship="viewControllers" id="jGA-gZ-ejg"/>
+                        <segue destination="COf-EW-NXh" kind="relationship" relationship="viewControllers" id="reB-WA-i10"/>
+                        <segue destination="sIf-u1-XLr" kind="relationship" relationship="viewControllers" id="8n3-gQ-VaU"/>
+                        <segue destination="flU-55-RAM" kind="relationship" relationship="viewControllers" id="DbC-Mn-YrZ"/>
+                        <segue destination="ULz-rW-aYa" kind="relationship" relationship="viewControllers" id="OLb-Ln-UeR"/>
+                        <segue destination="ebZ-t6-wZM" kind="relationship" relationship="viewControllers" id="1wK-wZ-YNf"/>
+                        <segue destination="EYm-gL-XrF" kind="relationship" relationship="viewControllers" id="092-Ag-TLy"/>
+                        <segue destination="ocP-LY-CH5" kind="relationship" relationship="viewControllers" id="so0-Zw-DmT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="es2-3o-Sid" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="691" y="3012"/>
+        </scene>
+        <!--Navigation Controller - Peso Stable-->
+        <scene sceneID="Ika-Bw-Ns9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="COf-EW-NXh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Peso Stable" image="pie-32.png" id="64z-xY-XC8"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9k0-ge-GgG">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4ss-cS-Tkc" kind="relationship" relationship="rootViewController" id="COo-Yd-R1T"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JVx-TX-Z4v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2729" y="-112"/>
+        </scene>
+        <!--Navigation Controller - Peso Bond-->
+        <scene sceneID="ath-mX-AJm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sIf-u1-XLr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Peso Bond" image="pie-32.png" id="hMU-gd-pf3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5YE-99-k0R">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XcR-X7-yV2" kind="relationship" relationship="rootViewController" id="GZL-7q-rwm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uOT-FS-AVQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2735" y="808"/>
+        </scene>
+        <!--Navigation Controller - Peso Equity-->
+        <scene sceneID="Au0-Sl-I4S">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="flU-55-RAM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Peso Equity" image="pie-32.png" id="6Se-p9-Ua0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zlz-Fr-UzZ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1Tj-Ag-hKb" kind="relationship" relationship="rootViewController" id="BzE-yi-blu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="296-Ym-JDP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2751" y="1768"/>
+        </scene>
+        <!--Navigation Controller - USD APBF-->
+        <scene sceneID="u8y-Ur-gFD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ebZ-t6-wZM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="USD APBF" image="pie-32.png" id="y3J-HQ-k1K"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PJk-m7-7ZW">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1tq-3H-g1Z" kind="relationship" relationship="rootViewController" id="8Hf-0F-mMR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LTH-vg-h0f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2751" y="2680"/>
+        </scene>
+        <!--Navigation Controller - USD AGF-->
+        <scene sceneID="7Qp-jG-jh7">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D7g-ss-kx2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EYm-gL-XrF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="USD AGF" image="pie-32.png" id="lXC-YD-Kp3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3NS-mj-MKn">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1WW-vg-QQ0" kind="relationship" relationship="rootViewController" id="H6s-ad-qaB"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="2759" y="4568"/>
+        </scene>
+        <!--Navigation Controller - Indicative Results-->
+        <scene sceneID="JxS-Ws-5vx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ubs-fj-GHx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Indicative Results" image="pie-32.png" id="Fgu-w7-K7X"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5fS-cG-RJg">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LNI-wY-0oA" kind="relationship" relationship="rootViewController" id="Mrt-A6-C3h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jl1-HJ-i1w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2767" y="6396"/>
+        </scene>
+        <!--Funds View Controller-->
+        <scene sceneID="SOw-M9-iGV">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uQ7-nD-Szp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="RIu-7e-UZK" customClass="FundsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dVt-me-JrH">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="PriorityChoice_bg_2013.png" id="x16-qt-cr0">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="PesoBalanced.png" id="Riu-nC-w8d">
+                                <rect key="frame" x="91" y="92" width="842" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Peso Balanced/ Dynamic Allocation Fund" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nlS-Tb-77L">
+                                <rect key="frame" x="20" y="21" width="840" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="re8-gO-202" userLabel="lbl_Overlay">
+                                <rect key="frame" x="91" y="472" width="842" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fSs-vB-dwL">
+                                <rect key="frame" x="107" y="485" width="810" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The Fund seeks to achieve long-term capital growth through investment in diversified portfolios of peso-denominated fixed income securities and securities listed on the Philippine Stock Exchange and/or pooled funds that invest in these securities and other liquid fixed income instruments. The fund shall generally maintain a balanced allocation between fixed income and equity investments.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="p8n-or-Anu"/>
+                    <connections>
+                        <outlet property="navItem" destination="p8n-or-Anu" id="4Hx-xb-oIR"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3885" y="3632"/>
+        </scene>
+        <!--Navigation Controller - Peso Balanced-->
+        <scene sceneID="cwD-Y6-N9Y">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DM7-m4-Qhd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ULz-rW-aYa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Peso Balanced" image="pie-32.png" id="7Tk-YJ-rVf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b2E-hc-yY4">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RIu-7e-UZK" kind="relationship" relationship="rootViewController" id="dXF-xv-uab"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="2751" y="3632"/>
+        </scene>
+        <!--Funds View Controller-->
+        <scene sceneID="sfP-x3-4cG">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BtS-SK-nji" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="7Jz-9s-U4Z" customClass="FundsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Twu-7z-ptv">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="PriorityChoice_bg_2013.png" id="INh-5j-pR8">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="USDBond.png" id="q2D-x5-Zf6">
+                                <rect key="frame" x="91" y="92" width="842" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="US Dollar Bond Fund" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bXq-ba-RcV">
+                                <rect key="frame" x="20" y="21" width="449" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nea-3W-2t2" userLabel="lbl_Overlay">
+                                <rect key="frame" x="91" y="472" width="842" height="163"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="swC-1M-Qfc">
+                                <rect key="frame" x="107" y="504" width="810" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> The Fund seeks to achieve a stable and long-term growth by investing in USD denominated sovereign and corporate debt securities and/or pooled fund/s that invest in these securities and other liquid instruments.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="d3q-ve-8ZV"/>
+                    <connections>
+                        <outlet property="navItem" destination="d3q-ve-8ZV" id="47v-0u-KF7"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3893" y="5464"/>
+        </scene>
+        <!--Navigation Controller - USD Bond-->
+        <scene sceneID="7S5-lQ-F2i">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WcR-af-7gH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ocP-LY-CH5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="USD Bond" image="pie-32.png" id="L3n-oy-lMW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ObY-Ti-rFr">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7Jz-9s-U4Z" kind="relationship" relationship="rootViewController" id="uGE-r2-jKJ"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="2767" y="5464"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Apbf.png" width="657" height="379"/>
+        <image name="GrowthFund.png" width="656" height="381"/>
+        <image name="IndicativeResults.jpg" width="2556" height="1645"/>
+        <image name="PesoBalanced.png" width="971" height="614"/>
+        <image name="PesoEquityFund.png" width="657" height="376"/>
+        <image name="PesoStableFund.png" width="653" height="377"/>
+        <image name="PesobondFund.png" width="655" height="377"/>
+        <image name="PriorityChoice_bg_2013.png" width="1024" height="768"/>
+        <image name="USDBond.png" width="694" height="379"/>
+        <image name="pie-32.png" width="32" height="32"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
