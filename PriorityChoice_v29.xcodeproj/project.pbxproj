@@ -88,6 +88,7 @@
 		1CF88DD4184D7B02005CF9EA /* MCBL_PlatinumElite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF88DC2184D7B02005CF9EA /* MCBL_PlatinumElite.png */; };
 		1CF88DD5184D7B02005CF9EA /* MCBL_ProSecure.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF88DC3184D7B02005CF9EA /* MCBL_ProSecure.png */; };
 		1CF88DD6184D7B02005CF9EA /* MCBL_ProSecurePlus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF88DC4184D7B02005CF9EA /* MCBL_ProSecurePlus.png */; };
+		5913C49721769E8600A59077 /* Investment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913C49621769E8600A59077 /* Investment.swift */; };
 		5959A8A42175AAC000773790 /* iPhoneMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */; };
 		5959A8A62175ACD400773790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5959A8A52175ACD400773790 /* Assets.xcassets */; };
 		E6315B18174B568B00E6DBF0 /* name-tag-identification-card_edited.png in Resources */ = {isa = PBXBuildFile; fileRef = E6315B17174B568B00E6DBF0 /* name-tag-identification-card_edited.png */; };
@@ -427,6 +428,8 @@
 		1CF88DC2184D7B02005CF9EA /* MCBL_PlatinumElite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MCBL_PlatinumElite.png; sourceTree = "<group>"; };
 		1CF88DC3184D7B02005CF9EA /* MCBL_ProSecure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MCBL_ProSecure.png; sourceTree = "<group>"; };
 		1CF88DC4184D7B02005CF9EA /* MCBL_ProSecurePlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MCBL_ProSecurePlus.png; sourceTree = "<group>"; };
+		5913C49521769E8500A59077 /* PriorityChoice_v29-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PriorityChoice_v29-Bridging-Header.h"; sourceTree = "<group>"; };
+		5913C49621769E8600A59077 /* Investment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Investment.swift; sourceTree = "<group>"; };
 		5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneMainStoryboard.storyboard; sourceTree = "<group>"; };
 		5959A8A52175ACD400773790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PriorityCh_test4/Assets.xcassets; sourceTree = "<group>"; };
 		E6315B17174B568B00E6DBF0 /* name-tag-identification-card_edited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "name-tag-identification-card_edited.png"; sourceTree = "<group>"; };
@@ -961,6 +964,56 @@
 			name = MCBL;
 			sourceTree = "<group>";
 		};
+		5913C48F21769DCF00A59077 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5913C49321769E1800A59077 /* ObjC */,
+				5913C49021769DEE00A59077 /* Swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5913C49021769DEE00A59077 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5913C49421769E3100A59077 /* Models */,
+				5913C49121769DF900A59077 /* Storyboards */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		5913C49121769DF900A59077 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5913C49221769E0800A59077 /* iPhone */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5913C49221769E0800A59077 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		5913C49321769E1800A59077 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				F37976CF172A1BD000970889 /* AppDelegate.h */,
+				F37976D0172A1BD000970889 /* AppDelegate.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		5913C49421769E3100A59077 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5913C49621769E8600A59077 /* Investment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E666FC83174378080052AC66 /* Health */ = {
 			isa = PBXGroup;
 			children = (
@@ -1216,8 +1269,8 @@
 		F379765A172A184100970889 /* PriorityCh_test4 */ = {
 			isa = PBXGroup;
 			children = (
-				F37976CF172A1BD000970889 /* AppDelegate.h */,
-				F37976D0172A1BD000970889 /* AppDelegate.m */,
+				5913C49521769E8500A59077 /* PriorityChoice_v29-Bridging-Header.h */,
+				5913C48F21769DCF00A59077 /* Classes */,
 				F37976DC172A1C5F00970889 /* FnaConstants.h */,
 				F37976DD172A1C5F00970889 /* FnaConstants.m */,
 				E6CC43C61739E17000C153DE /* MainStoryboard.storyboard */,
@@ -1649,6 +1702,7 @@
 				TargetAttributes = {
 					F3797650172A184100970889 = {
 						DevelopmentTeam = BP2999CPU5;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
@@ -1936,6 +1990,7 @@
 				F37977BA172A2F8D00970889 /* ProdTableViewController.m in Sources */,
 				F37977BB172A2F8D00970889 /* ProductCell.m in Sources */,
 				F37977BC172A2F8D00970889 /* ProductsNavController.m in Sources */,
+				5913C49721769E8600A59077 /* Investment.swift in Sources */,
 				F37977C4172A2FA700970889 /* FNAOutBoxViewController.m in Sources */,
 				F37977C6172A2FA700970889 /* FNAEmailSenderViewController.m in Sources */,
 				F37977D4172A2FC500970889 /* IncomeProtectionViewController.m in Sources */,
@@ -2084,6 +2139,7 @@
 		F3797675172A184100970889 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BP2999CPU5;
@@ -2091,9 +2147,13 @@
 				GCC_PREFIX_HEADER = "PriorityCh_test4/PriorityChoice_v29-Prefix.pch";
 				INFOPLIST_FILE = "PriorityCh_test4/PriorityChoice_v29-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.surge.PriorityChoice2018;
 				PRODUCT_NAME = "Priority Choice";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PriorityCh_test4/Classes/Swift/Models/PriorityChoice_v29-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2102,6 +2162,7 @@
 		F3797676172A184100970889 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BP2999CPU5;
@@ -2109,9 +2170,12 @@
 				GCC_PREFIX_HEADER = "PriorityCh_test4/PriorityChoice_v29-Prefix.pch";
 				INFOPLIST_FILE = "PriorityCh_test4/PriorityChoice_v29-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.surge.PriorityChoice2018;
 				PRODUCT_NAME = "Priority Choice";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PriorityCh_test4/Classes/Swift/Models/PriorityChoice_v29-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
