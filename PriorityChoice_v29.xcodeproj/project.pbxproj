@@ -88,6 +88,8 @@
 		1CF88DD4184D7B02005CF9EA /* MCBL_PlatinumElite.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF88DC2184D7B02005CF9EA /* MCBL_PlatinumElite.png */; };
 		1CF88DD5184D7B02005CF9EA /* MCBL_ProSecure.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF88DC3184D7B02005CF9EA /* MCBL_ProSecure.png */; };
 		1CF88DD6184D7B02005CF9EA /* MCBL_ProSecurePlus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF88DC4184D7B02005CF9EA /* MCBL_ProSecurePlus.png */; };
+		5959A8A42175AAC000773790 /* iPhoneMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */; };
+		5959A8A62175ACD400773790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5959A8A52175ACD400773790 /* Assets.xcassets */; };
 		E6315B18174B568B00E6DBF0 /* name-tag-identification-card_edited.png in Resources */ = {isa = PBXBuildFile; fileRef = E6315B17174B568B00E6DBF0 /* name-tag-identification-card_edited.png */; };
 		E6453AD71754871E00E9CA9E /* Activation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6453AD61754871E00E9CA9E /* Activation.m */; };
 		E64B8ADB174C9D7D00BA7BCE /* ReferenceDataDao.m in Sources */ = {isa = PBXBuildFile; fileRef = E64B8ADA174C9D7C00BA7BCE /* ReferenceDataDao.m */; };
@@ -425,6 +427,8 @@
 		1CF88DC2184D7B02005CF9EA /* MCBL_PlatinumElite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MCBL_PlatinumElite.png; sourceTree = "<group>"; };
 		1CF88DC3184D7B02005CF9EA /* MCBL_ProSecure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MCBL_ProSecure.png; sourceTree = "<group>"; };
 		1CF88DC4184D7B02005CF9EA /* MCBL_ProSecurePlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MCBL_ProSecurePlus.png; sourceTree = "<group>"; };
+		5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneMainStoryboard.storyboard; sourceTree = "<group>"; };
+		5959A8A52175ACD400773790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PriorityCh_test4/Assets.xcassets; sourceTree = "<group>"; };
 		E6315B17174B568B00E6DBF0 /* name-tag-identification-card_edited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "name-tag-identification-card_edited.png"; sourceTree = "<group>"; };
 		E6453AD51754871E00E9CA9E /* Activation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activation.h; sourceTree = "<group>"; };
 		E6453AD61754871E00E9CA9E /* Activation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activation.m; sourceTree = "<group>"; };
@@ -1175,6 +1179,7 @@
 		F3797648172A184100970889 = {
 			isa = PBXGroup;
 			children = (
+				5959A8A52175ACD400773790 /* Assets.xcassets */,
 				F39DF45817DEFFF8004652B6 /* Priority Choice 2013 icon.png */,
 				E6A5CD16174B87320029A1D2 /* Default-Landscape~ipad.png */,
 				F379765A172A184100970889 /* PriorityCh_test4 */,
@@ -1245,6 +1250,7 @@
 				F34A513817532C6700D656D1 /* About Manulife */,
 				F3797690172A18E800970889 /* Core */,
 				F379765B172A184100970889 /* Supporting Files */,
+				5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */,
 			);
 			path = PriorityCh_test4;
 			sourceTree = "<group>";
@@ -1642,7 +1648,7 @@
 				ORGANIZATIONNAME = Manulife;
 				TargetAttributes = {
 					F3797650172A184100970889 = {
-						DevelopmentTeam = M27WAU9757;
+						DevelopmentTeam = BP2999CPU5;
 					};
 				};
 			};
@@ -1806,6 +1812,7 @@
 				E6FA607A174F64D700A88514 /* edited_ProSecurePlus.png in Resources */,
 				E6FA607C174F64D700A88514 /* edited_PlatinumInvestElite_trans in Resources */,
 				1C78024E18A2056700CFFD83 /* GrowthFund.png in Resources */,
+				5959A8A62175ACD400773790 /* Assets.xcassets in Resources */,
 				E6FA607D174F64D700A88514 /* edited_Freedom15_trans in Resources */,
 				1C0CC4901A258EF9008E6409 /* AffluenceGold_Brochure_2013.png in Resources */,
 				1C35CD601A383CEE000AC6BD /* WealthPremiere2013Pic.png in Resources */,
@@ -1858,6 +1865,7 @@
 				F381C79E17A60139005DB654 /* question_mark.png in Resources */,
 				F3920BFB17C5E70900BC47D2 /* DisclaimerWealthPremier.pdf in Resources */,
 				1C0CC48E1A258EF9008E6409 /* Freedom15_Brochure_2013.png in Resources */,
+				5959A8A42175AAC000773790 /* iPhoneMainStoryboard.storyboard in Resources */,
 				F3920BFC17C5E70900BC47D2 /* DisclaimerMcbl.pdf in Resources */,
 				F3920BFD17C5E70900BC47D2 /* DisclaimerMp.pdf in Resources */,
 				1C92EEBB1855D99400B33BA2 /* edited_LegacyProtect100.png in Resources */,
@@ -2078,13 +2086,15 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BP2999CPU5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PriorityCh_test4/PriorityChoice_v29-Prefix.pch";
 				INFOPLIST_FILE = "PriorityCh_test4/PriorityChoice_v29-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.surge.PriorityChoice2018;
 				PRODUCT_NAME = "Priority Choice";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2094,13 +2104,15 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BP2999CPU5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PriorityCh_test4/PriorityChoice_v29-Prefix.pch";
 				INFOPLIST_FILE = "PriorityCh_test4/PriorityChoice_v29-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.surge.PriorityChoice2018;
 				PRODUCT_NAME = "Priority Choice";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
