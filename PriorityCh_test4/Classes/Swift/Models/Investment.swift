@@ -6,7 +6,7 @@
 //  Copyright © 2018 Manulife. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 struct Investment {
     let emergencyFund : Int
