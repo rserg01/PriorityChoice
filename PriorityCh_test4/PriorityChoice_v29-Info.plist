@@ -37,7 +37,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIMainStoryboardFile</key>
-	<string>MainStoryboard</string>
+	<string>iPhoneMainStoryboard</string>
 	<key>UIMainStoryboardFile~ipad</key>
 	<string>MainStoryboard</string>
 	<key>UIPrerenderedIcon</key>

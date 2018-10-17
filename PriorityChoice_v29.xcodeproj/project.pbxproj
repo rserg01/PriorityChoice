@@ -94,6 +94,8 @@
 		5913C49D2176D28700A59077 /* Retirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913C49C2176D28700A59077 /* Retirement.swift */; };
 		5913C49F2176D3C700A59077 /* EstatePlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913C49E2176D3C700A59077 /* EstatePlanning.swift */; };
 		5913C4A12176D68C00A59077 /* Health.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913C4A02176D68C00A59077 /* Health.swift */; };
+		5913C4A32176DAA900A59077 /* iPhoneMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5913C4A22176DAA900A59077 /* iPhoneMainStoryboard.storyboard */; };
+		5913C4A62176DC6000A59077 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913C4A52176DC6000A59077 /* BaseViewController.swift */; };
 		5959A8A42175AAC000773790 /* iPhoneMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */; };
 		5959A8A62175ACD400773790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5959A8A52175ACD400773790 /* Assets.xcassets */; };
 		E6315B18174B568B00E6DBF0 /* name-tag-identification-card_edited.png in Resources */ = {isa = PBXBuildFile; fileRef = E6315B17174B568B00E6DBF0 /* name-tag-identification-card_edited.png */; };
@@ -440,6 +442,8 @@
 		5913C49C2176D28700A59077 /* Retirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retirement.swift; sourceTree = "<group>"; };
 		5913C49E2176D3C700A59077 /* EstatePlanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstatePlanning.swift; sourceTree = "<group>"; };
 		5913C4A02176D68C00A59077 /* Health.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health.swift; sourceTree = "<group>"; };
+		5913C4A22176DAA900A59077 /* iPhoneMainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneMainStoryboard.storyboard; sourceTree = "<group>"; };
+		5913C4A52176DC6000A59077 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneMainStoryboard.storyboard; sourceTree = "<group>"; };
 		5959A8A52175ACD400773790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PriorityCh_test4/Assets.xcassets; sourceTree = "<group>"; };
 		E6315B17174B568B00E6DBF0 /* name-tag-identification-card_edited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "name-tag-identification-card_edited.png"; sourceTree = "<group>"; };
@@ -986,6 +990,7 @@
 		5913C49021769DEE00A59077 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5913C4A42176DC4C00A59077 /* ViewControllers */,
 				5913C49421769E3100A59077 /* Models */,
 				5913C49121769DF900A59077 /* Storyboards */,
 			);
@@ -1003,6 +1008,7 @@
 		5913C49221769E0800A59077 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				5913C4A22176DAA900A59077 /* iPhoneMainStoryboard.storyboard */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1027,6 +1033,14 @@
 				5913C4A02176D68C00A59077 /* Health.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		5913C4A42176DC4C00A59077 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5913C4A52176DC6000A59077 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		E666FC83174378080052AC66 /* Health */ = {
@@ -1909,6 +1923,7 @@
 				F319F44117584C8C004BE0DE /* green_BG2_2013.png in Resources */,
 				F319F44217584C8C004BE0DE /* orange_BG2_2013.png in Resources */,
 				F319F44317584C8C004BE0DE /* red_BG2_2013.png in Resources */,
+				5913C4A32176DAA900A59077 /* iPhoneMainStoryboard.storyboard in Resources */,
 				F319F44417584C8C004BE0DE /* violet_BG2_2013.png in Resources */,
 				1C35CD621A383D4D000AC6BD /* PesobondFund.png in Resources */,
 				F319F44517584C8C004BE0DE /* yellow_BG2_2013.png in Resources */,
@@ -1988,6 +2003,7 @@
 				F37976E2172A1C7800970889 /* MainSwitchViewController.m in Sources */,
 				F37976E7172A1C9200970889 /* FNAPriorityCompassViewController.m in Sources */,
 				5913C49B2176A7F600A59077 /* IncomeProtection.swift in Sources */,
+				5913C4A62176DC6000A59077 /* BaseViewController.swift in Sources */,
 				F3797705172A1CE300970889 /* FNAProfilesViewController.m in Sources */,
 				F3797706172A1CE300970889 /* FNAProfileManagerViewController.m in Sources */,
 				F3797707172A1CE300970889 /* FNAGeneralInformationViewController.m in Sources */,
@@ -2171,7 +2187,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.surge.PriorityChoice2018;
 				PRODUCT_NAME = "Priority Choice";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "PriorityCh_test4/Classes/Swift/Models/PriorityChoice_v29-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PriorityCh_test4/PriorityChoice_v29-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2194,7 +2210,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.surge.PriorityChoice2018;
 				PRODUCT_NAME = "Priority Choice";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "PriorityCh_test4/Classes/Swift/Models/PriorityChoice_v29-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "PriorityCh_test4/PriorityChoice_v29-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
