@@ -1016,6 +1016,39 @@
 		5913C49321769E1800A59077 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				F37976DC172A1C5F00970889 /* FnaConstants.h */,
+				F37976DD172A1C5F00970889 /* FnaConstants.m */,
+				E6CC43C61739E17000C153DE /* MainStoryboard.storyboard */,
+				1CD6212A183B507F002B4848 /* ExitStoryboard.storyboard */,
+				F34A5133175328BB00D656D1 /* MainTabController.h */,
+				F34A5134175328BB00D656D1 /* MainTabController.m */,
+				F37976D2172A1C0E00970889 /* MainViewController.h */,
+				F37976D3172A1C0E00970889 /* MainViewController.m */,
+				F37976DF172A1C7800970889 /* MainSwitchViewController.h */,
+				F37976E0172A1C7800970889 /* MainSwitchViewController.m */,
+				E6453AD51754871E00E9CA9E /* Activation.h */,
+				E6453AD61754871E00E9CA9E /* Activation.m */,
+				E6732BCD17959EA900DFA903 /* ModalActivationViewController.h */,
+				E6732BCE17959EA900DFA903 /* ModalActivationViewController.m */,
+				F361F2B917980EE400D6E054 /* ForgotPasswordViewController.h */,
+				F361F2BA17980EE400D6E054 /* ForgotPasswordViewController.m */,
+				1CD62131183C9228002B4848 /* ExitViewController.h */,
+				1CD62132183C9228002B4848 /* ExitViewController.m */,
+				1CD62133183C9228002B4848 /* ExitViewController.xib */,
+				1CD62138183DB0F9002B4848 /* TIMERUIApplication.h */,
+				1CD62139183DB0F9002B4848 /* TIMERUIApplication.m */,
+				F37977D7172A2FCB00970889 /* Priority Choice */,
+				F37977C8172A2FAB00970889 /* Email */,
+				F37977BD172A2F9200970889 /* Products */,
+				F37977B1172A2F7400970889 /* Rankings */,
+				F3797712172A1CED00970889 /* Profile Manager */,
+				F37976E9172A1C9600970889 /* Compass */,
+				F3722AEC172F5626001F4C59 /* Manucare */,
+				E6E39E311745B83F009927AD /* Financial Calculator */,
+				F34A513817532C6700D656D1 /* About Manulife */,
+				F3797690172A18E800970889 /* Core */,
+				F379765B172A184100970889 /* Supporting Files */,
+				5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */,
 				F37976CF172A1BD000970889 /* AppDelegate.h */,
 				F37976D0172A1BD000970889 /* AppDelegate.m */,
 			);
@@ -1105,6 +1138,7 @@
 				F3A0F1C017C5E57000106B01 /* FinCalcMpDisclaimerViewController.m */,
 			);
 			name = "Financial Calculator";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E6F28766174BA06900B653F2 /* Financial Calc */ = {
@@ -1227,6 +1261,7 @@
 				F3ED9F9A175355FE0079D587 /* InTheNewsViewController.m */,
 			);
 			name = "About Manulife";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F3722AEC172F5626001F4C59 /* Manucare */ = {
@@ -1256,6 +1291,7 @@
 				F381C79B17A5E5C0005DB654 /* ModalQuestionnaireViewController.m */,
 			);
 			name = Manucare;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F3797648172A184100970889 = {
@@ -1300,39 +1336,6 @@
 			children = (
 				5913C49521769E8500A59077 /* PriorityChoice_v29-Bridging-Header.h */,
 				5913C48F21769DCF00A59077 /* Classes */,
-				F37976DC172A1C5F00970889 /* FnaConstants.h */,
-				F37976DD172A1C5F00970889 /* FnaConstants.m */,
-				E6CC43C61739E17000C153DE /* MainStoryboard.storyboard */,
-				1CD6212A183B507F002B4848 /* ExitStoryboard.storyboard */,
-				F34A5133175328BB00D656D1 /* MainTabController.h */,
-				F34A5134175328BB00D656D1 /* MainTabController.m */,
-				F37976D2172A1C0E00970889 /* MainViewController.h */,
-				F37976D3172A1C0E00970889 /* MainViewController.m */,
-				F37976DF172A1C7800970889 /* MainSwitchViewController.h */,
-				F37976E0172A1C7800970889 /* MainSwitchViewController.m */,
-				E6453AD51754871E00E9CA9E /* Activation.h */,
-				E6453AD61754871E00E9CA9E /* Activation.m */,
-				E6732BCD17959EA900DFA903 /* ModalActivationViewController.h */,
-				E6732BCE17959EA900DFA903 /* ModalActivationViewController.m */,
-				F361F2B917980EE400D6E054 /* ForgotPasswordViewController.h */,
-				F361F2BA17980EE400D6E054 /* ForgotPasswordViewController.m */,
-				1CD62131183C9228002B4848 /* ExitViewController.h */,
-				1CD62132183C9228002B4848 /* ExitViewController.m */,
-				1CD62133183C9228002B4848 /* ExitViewController.xib */,
-				1CD62138183DB0F9002B4848 /* TIMERUIApplication.h */,
-				1CD62139183DB0F9002B4848 /* TIMERUIApplication.m */,
-				F37977D7172A2FCB00970889 /* Priority Choice */,
-				F37977C8172A2FAB00970889 /* Email */,
-				F37977BD172A2F9200970889 /* Products */,
-				F37977B1172A2F7400970889 /* Rankings */,
-				F3797712172A1CED00970889 /* Profile Manager */,
-				F37976E9172A1C9600970889 /* Compass */,
-				F3722AEC172F5626001F4C59 /* Manucare */,
-				E6E39E311745B83F009927AD /* Financial Calculator */,
-				F34A513817532C6700D656D1 /* About Manulife */,
-				F3797690172A18E800970889 /* Core */,
-				F379765B172A184100970889 /* Supporting Files */,
-				5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */,
 			);
 			path = PriorityCh_test4;
 			sourceTree = "<group>";
@@ -1351,6 +1354,7 @@
 				F379766A172A184100970889 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F3797690172A18E800970889 /* Core */ = {
@@ -1362,6 +1366,7 @@
 				F37976A0172A18FF00970889 /* Core */,
 			);
 			name = Core;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F37976A0172A18FF00970889 /* Core */ = {
@@ -1433,6 +1438,7 @@
 				F37976E6172A1C9200970889 /* FNAPriorityCompassViewController.xib */,
 			);
 			name = Compass;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F3797712172A1CED00970889 /* Profile Manager */ = {
@@ -1467,6 +1473,7 @@
 				F3D2BA8117539296003512C3 /* Synch.m */,
 			);
 			name = "Profile Manager";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F3797713172A1CFF00970889 /* Images */ = {
@@ -1611,6 +1618,7 @@
 				F3AA88801757565C00FB49C2 /* ProfilesTableViewController.m */,
 			);
 			name = Rankings;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F37977BD172A2F9200970889 /* Products */ = {
@@ -1639,6 +1647,7 @@
 				F34A51161752F0E600D656D1 /* EducationTableController.m */,
 			);
 			name = Products;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F37977C8172A2FAB00970889 /* Email */ = {
@@ -1652,6 +1661,7 @@
 				F37977C2172A2FA700970889 /* FNAEmailSenderViewController.m */,
 			);
 			name = Email;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F37977D7172A2FCB00970889 /* Priority Choice */ = {
@@ -1676,6 +1686,7 @@
 				F35B250E1771A314003E177C /* ModalPersonalAssetsViewController.m */,
 			);
 			name = "Priority Choice";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F3ED9F86175340450079D587 /* Visual Effects */ = {
