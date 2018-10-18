@@ -98,6 +98,7 @@
 		5913C4A62176DC6000A59077 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5913C4A52176DC6000A59077 /* BaseViewController.swift */; };
 		5959A8A42175AAC000773790 /* iPhoneMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */; };
 		5959A8A62175ACD400773790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5959A8A52175ACD400773790 /* Assets.xcassets */; };
+		59B63AA821780CF600F06046 /* PriorityChoice_v2018-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59B63AA721780CF600F06046 /* PriorityChoice_v2018-Info.plist */; };
 		E6315B18174B568B00E6DBF0 /* name-tag-identification-card_edited.png in Resources */ = {isa = PBXBuildFile; fileRef = E6315B17174B568B00E6DBF0 /* name-tag-identification-card_edited.png */; };
 		E6453AD71754871E00E9CA9E /* Activation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6453AD61754871E00E9CA9E /* Activation.m */; };
 		E64B8ADB174C9D7D00BA7BCE /* ReferenceDataDao.m in Sources */ = {isa = PBXBuildFile; fileRef = E64B8ADA174C9D7C00BA7BCE /* ReferenceDataDao.m */; };
@@ -446,6 +447,7 @@
 		5913C4A52176DC6000A59077 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		5959A8A32175AAC000773790 /* iPhoneMainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneMainStoryboard.storyboard; sourceTree = "<group>"; };
 		5959A8A52175ACD400773790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = PriorityCh_test4/Assets.xcassets; sourceTree = "<group>"; };
+		59B63AA721780CF600F06046 /* PriorityChoice_v2018-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PriorityChoice_v2018-Info.plist"; sourceTree = "<group>"; };
 		E6315B17174B568B00E6DBF0 /* name-tag-identification-card_edited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "name-tag-identification-card_edited.png"; sourceTree = "<group>"; };
 		E6453AD51754871E00E9CA9E /* Activation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activation.h; sourceTree = "<group>"; };
 		E6453AD61754871E00E9CA9E /* Activation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activation.m; sourceTree = "<group>"; };
@@ -617,10 +619,9 @@
 		F3797654172A184100970889 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3797656172A184100970889 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3797658172A184100970889 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F379765C172A184100970889 /* PriorityChoice_v29-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PriorityChoice_v29-Info.plist"; sourceTree = "<group>"; };
 		F379765E172A184100970889 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3797660172A184100970889 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F3797662172A184100970889 /* PriorityChoice_v29-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PriorityChoice_v29-Prefix.pch"; sourceTree = "<group>"; };
+		F3797662172A184100970889 /* PriorityChoice_v2018-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PriorityChoice_v2018-Prefix.pch"; sourceTree = "<group>"; };
 		F3797666172A184100970889 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F3797668172A184100970889 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F379766A172A184100970889 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -1343,12 +1344,12 @@
 		F379765B172A184100970889 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				59B63AA721780CF600F06046 /* PriorityChoice_v2018-Info.plist */,
 				F3797713172A1CFF00970889 /* Images */,
 				F37976D7172A1C3200970889 /* Database */,
-				F379765C172A184100970889 /* PriorityChoice_v29-Info.plist */,
 				F379765D172A184100970889 /* InfoPlist.strings */,
 				F3797660172A184100970889 /* main.m */,
-				F3797662172A184100970889 /* PriorityChoice_v29-Prefix.pch */,
+				F3797662172A184100970889 /* PriorityChoice_v2018-Prefix.pch */,
 				F3797666172A184100970889 /* Default.png */,
 				F3797668172A184100970889 /* Default@2x.png */,
 				F379766A172A184100970889 /* Default-568h@2x.png */,
@@ -1714,9 +1715,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3797650172A184100970889 /* PriorityChoice_v29 */ = {
+		F3797650172A184100970889 /* PriorityChoice_v2018 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3797674172A184100970889 /* Build configuration list for PBXNativeTarget "PriorityChoice_v29" */;
+			buildConfigurationList = F3797674172A184100970889 /* Build configuration list for PBXNativeTarget "PriorityChoice_v2018" */;
 			buildPhases = (
 				F379764D172A184100970889 /* Sources */,
 				F379764E172A184100970889 /* Frameworks */,
@@ -1726,7 +1727,7 @@
 			);
 			dependencies = (
 			);
-			name = PriorityChoice_v29;
+			name = PriorityChoice_v2018;
 			productName = PriorityCh_test4;
 			productReference = F3797651172A184100970889 /* Priority Choice.app */;
 			productType = "com.apple.product-type.application";
@@ -1746,7 +1747,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F379764C172A184100970889 /* Build configuration list for PBXProject "PriorityChoice_v29" */;
+			buildConfigurationList = F379764C172A184100970889 /* Build configuration list for PBXProject "PriorityChoice_v2018" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1758,7 +1759,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3797650172A184100970889 /* PriorityChoice_v29 */,
+				F3797650172A184100970889 /* PriorityChoice_v2018 */,
 			);
 		};
 /* End PBXProject section */
@@ -1843,6 +1844,7 @@
 				1C0CC4981A258EF9008E6409 /* Freedom20_Brochure.png in Resources */,
 				1C0CC4961A258EF9008E6409 /* SmartMinds_Brochure.png in Resources */,
 				F37977D2172A2FC500970889 /* PriorityCalcStoryboard.storyboard in Resources */,
+				59B63AA821780CF600F06046 /* PriorityChoice_v2018-Info.plist in Resources */,
 				1CA1E8B218641C0800B7A506 /* Why_Manulife_MCBL.png in Resources */,
 				F3722AEE172F5656001F4C59 /* ManucareStoryboard.storyboard in Resources */,
 				F31EEDF6172FB3E600A84D1D /* PriorityChoice_bg_2013.png in Resources */,
@@ -2191,8 +2193,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BP2999CPU5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PriorityCh_test4/PriorityChoice_v29-Prefix.pch";
-				INFOPLIST_FILE = "PriorityCh_test4/PriorityChoice_v29-Info.plist";
+				GCC_PREFIX_HEADER = "PriorityCh_test4/PriorityChoice_v2018-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PriorityCh_test4/PriorityChoice_v2018-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.surge.PriorityChoice2018;
@@ -2214,8 +2216,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = BP2999CPU5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PriorityCh_test4/PriorityChoice_v29-Prefix.pch";
-				INFOPLIST_FILE = "PriorityCh_test4/PriorityChoice_v29-Info.plist";
+				GCC_PREFIX_HEADER = "PriorityCh_test4/PriorityChoice_v2018-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/PriorityCh_test4/PriorityChoice_v2018-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.surge.PriorityChoice2018;
@@ -2231,7 +2233,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F379764C172A184100970889 /* Build configuration list for PBXProject "PriorityChoice_v29" */ = {
+		F379764C172A184100970889 /* Build configuration list for PBXProject "PriorityChoice_v2018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3797672172A184100970889 /* Debug */,
@@ -2240,7 +2242,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3797674172A184100970889 /* Build configuration list for PBXNativeTarget "PriorityChoice_v29" */ = {
+		F3797674172A184100970889 /* Build configuration list for PBXNativeTarget "PriorityChoice_v2018" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3797675172A184100970889 /* Debug */,
